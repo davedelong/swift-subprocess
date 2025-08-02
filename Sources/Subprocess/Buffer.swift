@@ -11,6 +11,7 @@
 
 #if canImport(Darwin) || canImport(Glibc) || canImport(Android) || canImport(Musl)
 @preconcurrency internal import Dispatch
+import Foundation
 #endif
 
 
